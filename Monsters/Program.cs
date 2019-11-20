@@ -146,14 +146,14 @@ namespace Monsters
                         DisplayContinuePrompt();
                         break;
                 }
-
+                 
 
             } while (!quitApplication);
         }
 
         static void DisplayWriteToDataFile(List<Monster> monsters)
         {
-            DisplayScreenHeader("Write to data File");
+            DisplayScreenHeader("Write to data file");
 
             DisplayContinuePrompt();
 
